@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Spaceship.DataAccess\Spaceship.DataAccess.csproj" />
+    <ProjectReference Include="..\Spaceship.Entities\Spaceship.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

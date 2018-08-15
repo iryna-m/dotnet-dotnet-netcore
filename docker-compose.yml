@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  spaceship:
+    image: ${DOCKER_REGISTRY}spaceship
+    build:
+      context: .
+      dockerfile: Spaceship.Public/Dockerfile
+
+  spaceship.admin:
+    image: ${DOCKER_REGISTRY}spaceshipadmin
+    build:
+      context: .
+      dockerfile: Spaceship.Admin/Dockerfile
+
