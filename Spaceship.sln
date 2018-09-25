@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BA3B1BCA-32E8-4929-B9E7-9014CC9AA497}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaceship.Admin", "Spaceship.Admin\Spaceship.Admin.csproj", "{20B7A96B-AE1D-4931-814C-9875BD847556}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spaceship.Tools", "Spaceship.Tools\Spaceship.Tools.csproj", "{59FC7328-05B8-42AD-A0AC-3D14E83A8A6F}"
