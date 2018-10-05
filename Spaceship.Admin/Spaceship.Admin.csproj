@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
     <Version>0.0.1</Version>
+    <DeployableModule>Spaceship.Admin</DeployableModule>
   </PropertyGroup>
 
   <ItemGroup>
