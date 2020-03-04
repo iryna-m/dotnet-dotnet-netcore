@@ -1,0 +1,23 @@
+name: dotnet-dotnet-netcore
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: gcp.edp-epam.com
+
+
+database:
+  required: true
+  version: postgres:9.6
+  storageClass: standard
+  capacity: 3Gi
+
+
+
+ingress:
+  required: true
+  site: spaceship
+  path: /
+
+image:
+  name: dotnet-dotnet-netcore
+  version: latest

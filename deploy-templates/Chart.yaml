@@ -1,0 +1,7 @@
+apiVersion: v1
+description: Helm chart for dotnet application/service deploying
+name: dotnet-dotnet-netcore
+version: 1.0
+keywords:
+    - dotnet
+home: https://www.epam.com
