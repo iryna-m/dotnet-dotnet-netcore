@@ -2,21 +2,14 @@ name: dotnet-dotnet-netcore
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
-dnsWildcard: gcp.edp-epam.com
-
+dnsWildcard: k9s.ru
 
 database:
-  required: true
-  version: postgres:9.6
-  storageClass: standard
-  capacity: 3Gi
-
+  required: false
 
 
 ingress:
-  required: true
-  site: spaceship
-  path: /
+  required: false
 
 image:
   name: dotnet-dotnet-netcore
